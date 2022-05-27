@@ -1,0 +1,52 @@
+apache 7.2X64
+php 7.2X64
+
+sql 5.7
+
+
+
+composer update
+
+используемая база Q:\OSPanel\userdata\MySQL-5.6-x64\app
+
+Таблица не найдена
+Возможно, вы забыли запустить миграцию. Вы можете запускать миграции, используя php artisan migrate.
+
+Нажав кнопку ниже, вы попытаетесь запустить миграцию.
+
+https://files.000webhost.com/
+etzG(6J^pOR&y^BcnPyw
+
+Выгруска на сервер (деплой)
+консоль опенс сервер 
+cd Q:\OSPanel\domains\App
+php artisan key: generate
+php artisan config: clear
+php artisan cache: clear
+
+000webhost.com/ ftp (fillezilla)
+files.000webhost.com
+mournful-integers
+etzG(6J^pOR&y^BcnPyw
+
+
+распаковка сайта  (public_html)
+https://mournful-integers.000webhostapp.com//unzipper.php
+
+https://app.infinityfree.net/accounts/epiz_29761331
+ftp
+ftpupload.net
+epiz_29761331
+becF31mOk4
+
+
+Загрузите все свои файлы laravel (как есть) с localhost в / htdocs - лучше создать подпапку в / htdocs, чтобы лучше управлять проектом.
+Экспорт базы данных phpMyAdmin и импорт в бесконечную базу данных. Должен получить все учетные данные, необходимые для установки учетных данных БД в файле .env.
+Обновите настройки БД в файле .env.
+Создайте файл .htaccess в папке / htdocs. см., например, файл
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule (. *) / your_subfolder / public / $ 1 [L]
+</ IfModule>
+Таким образом, общий хост-сервер довольно удобен для развертывания Laravel, и это конфигурация сервера высшего класса, отличается от других хостинг-провайдеров.
+Из-за отсутствия SSH можно столкнуться с ошибкой, специфичной для laravel, но это не большая проблема, если вы знакомы с Laravel.
